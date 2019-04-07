@@ -1,0 +1,21 @@
+
+.links {
+  color: #818181;
+  display: block;
+  font-size: 25px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.links:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+
+  .links {
+    font-size: 18px;
+  }
+}

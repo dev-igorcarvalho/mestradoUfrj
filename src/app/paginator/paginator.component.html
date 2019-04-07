@@ -1,0 +1,17 @@
+<!-- PAGINATOR BUTTONS -->
+
+<div class="row" style="margin-bottom: 20px;">
+    <div class="col d-flex justify-content-start">
+      <button (click)="navigate(aulaId-1)"
+       *ngIf="aulaId != 1"  
+       type="button" 
+       class="btn btn-info btn-special">PREVIOUS</button>
+    </div>
+    <div class="col d-flex justify-content-end">
+      <button (click)="navigate(aulaId+1)"
+      *ngIf="aulasLenght > aulaId" 
+        type="button" 
+        class="btn btn-info btn-special">NEXT</button>
+    </div>
+  </div>
+  <!-- PAGINATOR BUTTONS -->

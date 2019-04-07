@@ -1,0 +1,23 @@
+<div id="main">
+  <app-side-bar [aulas]="aulas" [aula]="aula"></app-side-bar>
+
+  <!-- CONTENT -->
+  <div class="container-fluid">
+
+    <app-video-frame [inputURL]="aula.videoURL">
+
+    </app-video-frame>
+
+    <app-quiz-area *ngFor="let pergunta of aula.perguntas" [pergunta]="pergunta"></app-quiz-area>
+
+
+    <app-paginator [aulaId]="aula.id" [aulasLenght]="aulas.length"> </app-paginator>
+
+
+  </div>
+  <!-- CONTENT -->
+
+
+
+
+</div>

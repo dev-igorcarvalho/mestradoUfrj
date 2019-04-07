@@ -1,0 +1,17 @@
+<!-- SIDEBAR -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+
+  <a class="links"
+     *ngFor="let aula of aulas"
+     (click)="closeNav()"
+     routerLink="/aula/{{aula.id}}">{{aula.titulo}}</a>
+
+</div>
+<!-- SIDEBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" (click)="openNav()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <h4>{{aula.titulo}}</h4>
+</nav>

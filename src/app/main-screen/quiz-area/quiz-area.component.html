@@ -1,0 +1,17 @@
+<!-- QUIZ AREA -->
+<div class="alert" style="margin-top: 20px; background-color: whitesmoke;">
+  <div class="row">
+    <div class="col text-justify text-center ">
+      
+      <h5>{{pergunta.id}} - {{pergunta.titulo}}</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col  d-flex justify-content-start">
+      <ul style="list-style: none; padding: 0;"  (click)="quizAnswer(pergunta.id)">
+        <li id="{{pergunta.id}}{{resposta.id}}" class="alert " *ngFor="let resposta of pergunta.respostas">{{resposta.texto}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- QUIZ AREA -->
