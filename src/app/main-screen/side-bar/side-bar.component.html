@@ -2,7 +2,7 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
 
-  <a class="links"
+  <a class="links" style="font-size: 18px;"
      *ngFor="let aula of aulas"
      (click)="closeNav()"
      routerLink="/aula/{{aula.id}}">{{aula.titulo}}</a>
@@ -13,5 +13,5 @@
   <button class="navbar-toggler" type="button" (click)="openNav()">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <h4>{{aula.titulo}}</h4>
+  <h5>{{aula.titulo}}</h5>
 </nav>

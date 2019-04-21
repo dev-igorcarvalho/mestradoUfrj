@@ -8,8 +8,8 @@
   </div>
   <div class="row">
     <div class="col  d-flex justify-content-start">
-      <ul style="list-style: none; padding: 0;"  (click)="quizAnswer(pergunta.id)">
-        <li id="{{pergunta.id}}{{resposta.id}}" class="alert " *ngFor="let resposta of pergunta.respostas">{{resposta.texto}}</li>
+      <ul style="list-style: none; padding: 0; width: 100%;"  (click)="quizAnswer(pergunta.id)" >
+        <li id="{{pergunta.id}}{{resposta.id}}" style="width: 100%" class="alert " *ngFor="let resposta of pergunta.respostas">{{resposta.texto}}</li>
       </ul>
     </div>
   </div>
