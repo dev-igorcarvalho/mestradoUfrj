@@ -406,7 +406,7 @@ export class DataSourceService {
             {
               id: 3,
               texto: "c) Se deve acompanhar a norma culta da língua portuguesa",
-              correto: true
+              correto: false
             },
             {
               id: 4,
