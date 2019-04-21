@@ -25,7 +25,7 @@ export class DataSourceService {
             },
             {
               id: 2,
-              texto: "b) Mesmo havendo infecção ele não se manifesta, não aparece",
+              texto: "b) Mesmo havendo infecção ela não se manifesta, não aparece",
               correto: true
             },
             {
@@ -226,7 +226,7 @@ export class DataSourceService {
         {
           id: 1,
           titulo: "Para combater a gonorreia, uma infecção causada pela bactéria Nesseria gonorrhoeae, "+
-          "a doutora prescreveu para o tratamento o medicamento:",
+          "a médica prescreveu para o tratamento o medicamento:",
           respostas: [
             {
               id: 1,
@@ -294,7 +294,7 @@ export class DataSourceService {
           respostas: [
             {
               id: 1,
-              texto: "a) O microrganismo não resiste a antibióticos",
+              texto: "a) O microrganismo não resiste a antibiótico",
               correto: false
             },
             {
@@ -426,7 +426,7 @@ export class DataSourceService {
     {
       id: 5,
       titulo: "Conversa familiar sobre IST",
-      videoURL: "https://www.youtube.com/embed/bFWNuopSqLA",
+      videoURL: "https://www.youtube.com/embed/GU5v9EB-Y7s",
       perguntas: [
         {
           id: 1,
@@ -637,22 +637,22 @@ export class DataSourceService {
           respostas: [
             {
               id: 1,
-              texto: "a) É sífilis transmitida através da saliva durante o beijo",
+              texto: "a) É a sífilis transmitida através da saliva durante o beijo",
               correto: false
             },
             {
               id: 2,
-              texto: "b) É sífilis transmitida para os avós",
+              texto: "b) É a sífilis transmitida para os avós",
               correto: false
             },
             {
               id: 3,
-              texto: "c) É sífilis transmitida para o cônjuge durante a relação sexual",
+              texto: "c) É a sífilis transmitida para o cônjuge durante a relação sexual",
               correto: false
             },
             {
               id: 4,
-              texto: "d) É sífilis transmitida da mãe para o bebê através da placenta ou durante o parto normal.",
+              texto: "d) É a sífilis transmitida da mãe para o bebê através da placenta ou durante o parto normal.",
               correto: true
             },
             {
@@ -751,7 +751,7 @@ export class DataSourceService {
             },
             {
               id: 3,
-              texto: "c) Neisseria gonorrheae sífilis transmitida para o cônjuge durante a relação sexual",
+              texto: "c) Neisseria gonorrheae",
               correto: true
             },
             {
