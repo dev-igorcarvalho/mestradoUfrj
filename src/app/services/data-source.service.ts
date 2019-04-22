@@ -426,7 +426,7 @@ export class DataSourceService {
     {
       id: 5,
       titulo: "Conversa familiar sobre IST",
-      videoURL: "https://www.youtube.com/embed/GU5v9EB-Y7s",
+      videoURL: "https://www.youtube.com/embed/VH95ROH59gw",
       perguntas: [
         {
           id: 1,
@@ -681,7 +681,7 @@ export class DataSourceService {
             {
               id: 3,
               texto: "c) Lesões nas mãos e pés, Cranco duro, sem sintomas, tumores e cistos",
-              correto: true
+              correto: false
             },
             {
               id: 4,
