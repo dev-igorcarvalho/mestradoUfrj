@@ -14,10 +14,12 @@ import { NavlinksComponent } from './main-screen/side-bar/navlinks/navlinks.comp
 import { ParamTestComponent } from './main-screen/param-test/param-test.component';
 import { QuizAreaComponent } from './main-screen/quiz-area/quiz-area.component';
 import { PaginatorComponent } from './paginator/paginator.component';
+import { IndiceComponent } from './indice/indice.component';
 
 const appRoutes: Routes = [
   {path: 'capa', component: CapaComponent },
   {path: 'prefacio', component: PrefacioComponent},
+  {path: 'indice', component: IndiceComponent},
   // {path: 'aula', component: MainScreenComponent },
   // {path: 'principal/:paramTest', component: MainScreenComponent},
   {path: 'aula/:id', component: MainScreenComponent},
@@ -36,6 +38,7 @@ const appRoutes: Routes = [
     ParamTestComponent,
     QuizAreaComponent,
     PaginatorComponent,
+    IndiceComponent,
   ],
   imports: [
     BrowserModule,

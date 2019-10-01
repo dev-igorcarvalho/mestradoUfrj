@@ -1,0 +1,17 @@
+.sidenav {
+    color: black;
+  }
+  
+  .sidenav a {
+    color: black;
+    display: block;
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 8px 8px 8px 45px;
+    text-decoration: none;
+  }
+  
+  .sidenav a:hover {
+    color:#818181;
+  }
+  

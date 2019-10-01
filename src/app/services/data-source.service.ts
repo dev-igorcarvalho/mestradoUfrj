@@ -16,7 +16,7 @@ export class DataSourceService {
       perguntas: [
         {
           id: 1,
-          titulo: "Uma infecção assintomática é aquela que:" ,
+          titulo: "Uma infecção assintomática é aquela que:",
           respostas: [
             {
               id: 1,
@@ -79,7 +79,7 @@ export class DataSourceService {
         {
           id: 3,
           titulo: "Quando uma pessoa apresenta manifestações de determinada doença ou infecção " +
-           "como febre, náuseas, dor ou vermelhidão na pele, então podemos caracterizar como uma infecção:",
+            "como febre, náuseas, dor ou vermelhidão na pele, então podemos caracterizar como uma infecção:",
           respostas: [
             {
               id: 1,
@@ -107,6 +107,68 @@ export class DataSourceService {
               correto: false
             },
           ]
+        },
+        {
+          id: 4,
+          titulo: "Muitos acham que beber água gelada ou chupar sorvete causa gripe. Verdade?",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Sim, pois a gripe e o resfriado são gerados pela diferença de temperatura",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Não, pois a gripe é causada pela ação de vírus",
+              correto: true
+            },
+            {
+              id: 3,
+              texto: "c) Não, pois o que causa a gripe é o banho quente",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Sim, pois as bactérias estão em todos os lugares e vão causar a gripe",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Quando faço sexo oral devo:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Dispensar a camisinha para ter prazer máximo",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Dispensar a camisinha, pois sempre lavo a boca antes e depois do sexo",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Colocar o preservativo em qualquer situação, pois assim evitarei infecções",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Colocar o preservativo apenas no homem, pois, na mulher é dispensável",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
         }
       ]
     },
@@ -119,8 +181,8 @@ export class DataSourceService {
         {
           id: 1,
           titulo: "É a capacidade que o corpo ou organismo tem de reagir à invasão " +
-          "de microrganismos ou de responder a estímulos, no sentido de reparar ou " +
-          "restabelecer as funções normais do corpo:",
+            "de microrganismos ou de responder a estímulos, no sentido de reparar ou " +
+            "restabelecer as funções normais do corpo:",
           respostas: [
             {
               id: 1,
@@ -151,9 +213,9 @@ export class DataSourceService {
         },
         {
           id: 2,
-          titulo: "O vírus do papiloma humano pode ser adquirido através do sexo desprotegido, "+
-          "podendo causar o câncer de colo de útero nas mulheres. Então, se uma pessoa é vacinada "+
-          "contra o HPV ela pode evitar uma futura infecção, pois, a vacina vai ajudar na:",
+          titulo: "O vírus do papiloma humano pode ser adquirido através do sexo desprotegido, " +
+            "podendo causar o câncer de colo de útero nas mulheres. Então, se uma pessoa é vacinada " +
+            "contra o HPV ela pode evitar uma futura infecção, pois, a vacina vai ajudar na:",
           respostas: [
             {
               id: 1,
@@ -184,9 +246,9 @@ export class DataSourceService {
         },
         {
           id: 3,
-          titulo: "Para a maioria das pessoas, alguns fatores como alimentação ruim, "+
-          "poucas horas de sono, ingestão de bebida alcoólica em excesso e estresse, "+
-          "podem contribuir para uma baixa da imunidade e, consequentemente, para uma maior oportunidade de:",
+          titulo: "Para a maioria das pessoas, alguns fatores como alimentação ruim, " +
+            "poucas horas de sono, ingestão de bebida alcoólica em excesso e estresse, " +
+            "podem contribuir para uma baixa da imunidade e, consequentemente, para uma maior oportunidade de:",
           respostas: [
             {
               id: 1,
@@ -214,6 +276,70 @@ export class DataSourceService {
               correto: false
             },
           ]
+        },
+        {
+          id: 4,
+          titulo: "Os bebês são frágeis e ficam doentes com frequência. Isto ocorre porque?",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) O sistema imunológico ainda está se desenvolvendo",
+              correto: true
+            },
+            {
+              id: 2,
+              texto: "b) Eles não sabem falar e dizer onde dói",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Apesar de nascerem com o sistema imunológico pronto, são vulneráveis",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Alguns pais, não cuidam direito dos bebês.",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Quando quebramos o dedo, torcemos o pé ou adquirimos um “galo” (Hematoma) " +
+            "na cabeça, todos sem a invasão do corpo por quaisquer microrganismos, então " +
+            "ocorre a ação do sistema imune",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Eliminando o microrganismo",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Reparando os efeitos dos microrganismos",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Reparando ou reestabelecendo as funções normais do corpo:",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Não reagindo, pois não houve invasão de microrganismos",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
         }
       ]
     },
@@ -225,8 +351,8 @@ export class DataSourceService {
       perguntas: [
         {
           id: 1,
-          titulo: "Para combater a gonorreia, uma infecção causada pela bactéria Nesseria gonorrhoeae, "+
-          "a médica prescreveu para o tratamento o medicamento:",
+          titulo: "Para combater a gonorreia, uma infecção causada pela bactéria Nesseria gonorrhoeae, " +
+            "a médica prescreveu para o tratamento o medicamento:",
           respostas: [
             {
               id: 1,
@@ -257,9 +383,9 @@ export class DataSourceService {
         },
         {
           id: 2,
-          titulo: "É um termo usado para caracterizar um grupo de microrganismos resistentes "+
-          "a ação de vários antibióticos e que é responsável pelo aumento do número de casos "+
-          "de morte em várias partes do mundo:",
+          titulo: "É um termo usado para caracterizar um grupo de microrganismos resistentes " +
+            "a ação de vários antibióticos e que é responsável pelo aumento do número de casos " +
+            "de morte em várias partes do mundo:",
           respostas: [
             {
               id: 1,
@@ -310,6 +436,68 @@ export class DataSourceService {
             {
               id: 4,
               texto: "d) O microrganismo só será morto com o uso do antibiótico X",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 4,
+          titulo: "O aparecimento das superbactérias está associado a?",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) A grande dificuldade das pessoas adquirirem os antibióticos",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) A falta de financiamento para produção de antibióticos simples",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Ao aquecimento natural do planeta Terra",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Ao uso incorreto dos antibióticos",
+              correto: true
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Para que os antibióticos tenham a ação desejada devemos:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Fazer automedicação, ingerindo qualquer antibiótico",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Fazer uso de antibióticos fora do prazo de validade, pois são mais potentes",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Seguir a prescrição médica sem alterar os horários e doses estabelecidas",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Durante a gestação usar o dobro de antibióticos, sempre",
               correto: false
             },
             {
@@ -395,22 +583,86 @@ export class DataSourceService {
           respostas: [
             {
               id: 1,
-              texto: "a) A IST considera possível ter e transmitir uma infecção, mesmo sem sinais e sintomas",
+              texto: "a) A IST se refere a transmissão de uma infecção, mesmo sem sinais e sintomas",
               correto: true
             },
             {
               id: 2,
-              texto: "b) A IST considera impossível transmitir uma infecção, se não houver sinais e sintomas",
+              texto: "b) A IST se refere a ausência de infecção, quando não há sinais e sintomas",
               correto: false
             },
             {
               id: 3,
-              texto: "c) Se deve acompanhar a norma culta da língua portuguesa",
+              texto: "c) Para a norma culta da língua portuguesa é mais adequado",
               correto: false
             },
             {
               id: 4,
-              texto: "d) A IST considera importante os sinais e sintomas, visíveis, da doença",
+              texto: "d) A IST se refere à doença infecciosa",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 4,
+          titulo: "Segundo o Ministério da Saúde os casos de sífilis e gonorreia, no Brasil, " +
+            "aumentaram bastante nos últimos anos. Uma das justificam para este aumento " +
+            "pode ser:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) O excesso de campanhas, durante todo o ano. Porém, o jovem não liga",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) O não reconhecimento das ISTs, por parte dos profissionais de saúde",
+              correto: true
+            },
+            {
+              id: 3,
+              texto: "c) O tratamento correto das ISTs",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) A falta de preservativo no mercado",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Para diminuir a disseminação da sífilis devemos:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Fazer apenas sexo oral",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Tomar antibiótico, antes e depois do sexo",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Fazer o tratamento correto, indicado pelo médico, caso esteja infectado",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Lavar as partes íntimas com álcool, após a atividade sexual",
               correto: false
             },
             {
@@ -461,8 +713,8 @@ export class DataSourceService {
         },
         {
           id: 2,
-          titulo: "Quando não é possível estabelecer uma conversa esclarecedora com os familiares, "+
-          "sobre sexo, o que devo fazer? ",
+          titulo: "Quando não é possível estabelecer uma conversa esclarecedora com os familiares, " +
+            "sobre sexo, o que devo fazer? ",
           respostas: [
             {
               id: 1,
@@ -514,6 +766,70 @@ export class DataSourceService {
               id: 4,
               texto: "d) Essa pessoa pratica o sexo com regularidade",
               correto: true
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 4,
+          titulo: "A regularidade do sexo varia de acordo com cada pessoa. Para alguns é norma " +
+            "fazer sexo todo dia. Para outros, o normal é uma vez por semana. Independente " +
+            "do intervalo de tempo entre uma relação sexual e outra, o ato sexual deve:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Ser feito com segurança",
+              correto: true
+            },
+            {
+              id: 2,
+              texto: "b) Ser praticado alternando-se entre o uso e o não uso do preservativo",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Ser interrompido antes do orgasmo, evitando as ISTs",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Ser controlado, pois, o cansaço, pode propiciar a aquisição de ISTs",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Alguns dias após a relação sexual, apareceu algo diferente na genitália. Então, procure:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Esquecer, pois, com o tempo vai sumir",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Esclarecimento através do profissional de saúde ou professor de biologia",
+              correto: true
+            },
+            {
+              id: 3,
+              texto: "c) Tomar logo o remédio. Assim, ninguém vai ver nada durante o sexo",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Rezar, pois não haverá cura para o seu problema",
+              correto: false
             },
             {
               id: 5,
@@ -622,6 +938,68 @@ export class DataSourceService {
               correto: false
             },
           ]
+        },
+        {
+          id: 4,
+          titulo: "A aquisição de IST pode ocorrer através de drogas injetáveis. Para evitar esse modo de infecção:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Devemos lavar a agulha da seringa, após o uso por outra pessoa",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Basta compartilhar as seringas com pessoas que conhecemos",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Devemos descartar as seringas em qualquer lugar",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Basta não compartilhar qualquer tipo de seringa",
+              correto: true
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Podemos citar como autocuidado os seguintes itens:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Usar perfume e tomar banho",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Usar preservativo e escovar os dentes",
+              correto: true
+            },
+            {
+              id: 3,
+              texto: "c) Ter alimentação saudável, somente aos domingos e tomae banho",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Fazer sexo com parceiros (as) variados (as) e passar fio dental",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
         }
       ]
     },
@@ -629,7 +1007,7 @@ export class DataSourceService {
     {
       id: 7,
       titulo: "A Sífilis",
-      videoURL: "https://www.youtube.com/embed/6rXOnkRPIg4",
+      videoURL: "https://www.youtube.com/embed/pT9xspXW8ZU",
       perguntas: [
         {
           id: 1,
@@ -664,9 +1042,9 @@ export class DataSourceService {
         },
         {
           id: 2,
-          titulo: "Em relação aos sintomas clínicos, a sífilis pode ser dividida nas fases primária, "+
-          "secundária, latente e terciária. Cada fase desta pode ser representada, respectivamente, "+
-          "por sintomas característicos como: ",
+          titulo: "Em relação aos sintomas clínicos, a sífilis pode ser dividida nas fases primária, " +
+            "secundária, latente e terciária. Cada fase desta pode ser representada, respectivamente, " +
+            "por sintomas característicos como: ",
           respostas: [
             {
               id: 1,
@@ -697,8 +1075,8 @@ export class DataSourceService {
         },
         {
           id: 3,
-          titulo: "A bactéria causadora da sífilis é combatida com a penicilina e sob orientação médica. "+
-          "E essa bactéria, Treponema pallidum, pode estar presente:",
+          titulo: "A bactéria causadora da sífilis é combatida com a penicilina e sob orientação médica. " +
+            "E essa bactéria, Treponema pallidum, pode estar presente:",
           respostas: [
             {
               id: 1,
@@ -726,6 +1104,69 @@ export class DataSourceService {
               correto: false
             },
           ]
+        },
+        {
+          id: 4,
+          titulo: "A única opção que expressa a verdade sobre a sífilis e o Treponema pallidum é:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) A sífilis não tem cura",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) A sífilis é causada pelo vírus Treponema pallidum",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) O único modo de se adquirir sífilis é através do sexo",
+              correto: false
+            },
+            {
+              id: 4,
+              texto: "d) Dependendo do estágio, a sífilis pode ter cura",
+              correto: true
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Animais domésticos como, gato e cachorro, poderiam se infectar com a sífilis, " +
+            "após lamberem as lesões de pessoa infectada?",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Sim, pois são mamíferos como o ser humano",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Sim, pois são animais domésticos",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Não, pois a sífilis e exclusiva do ser humano",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Não, isso só ocorreria se fosse uma ave",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
         }
       ]
     },
@@ -733,7 +1174,7 @@ export class DataSourceService {
     {
       id: 8,
       titulo: "A Gonorreia",
-      videoURL: "https://www.youtube.com/embed/R_2wnCmFmSo",
+      videoURL: "https://www.youtube.com/embed/-F4Y-1QwdW4",
       perguntas: [
         {
           id: 1,
@@ -819,6 +1260,69 @@ export class DataSourceService {
             {
               id: 4,
               texto: "d) Fadiga, mau hálito e muita sede",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 4,
+          titulo: "Na mulher a gonorreia pode, frequentemente, passar despercebida, agravando a " +
+            "infecção e aumentando o número de casos. Esse fato pode ocorrer pois:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) A gonorreia, na mulher, pode ser assintomática",
+              correto: true
+            },
+            {
+              id: 2,
+              texto: "b) As mulheres não se infectam com gonorreia",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) A gonorreia, na mulher, pode ser sintomática",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Na mulher, não há sinais externos, apenas internos",
+              correto: false
+            },
+            {
+              id: 5,
+              texto: "e) Eu não sei",
+              correto: false
+            },
+          ]
+        },
+        {
+          id: 5,
+          titulo: "Em uma pessoa com gonorreia, a Neisseria gonorrhoeae pode estar presente no:",
+          respostas: [
+            {
+              id: 1,
+              texto: "a) Rosto, língua e saliva",
+              correto: false
+            },
+            {
+              id: 2,
+              texto: "b) Cabelo, unhas e lágrimas",
+              correto: false
+            },
+            {
+              id: 3,
+              texto: "c) Sêmen, fluidos corporais e sangue",
+              correto: true
+            },
+            {
+              id: 4,
+              texto: "d) Língua, roupas e orelha",
               correto: false
             },
             {

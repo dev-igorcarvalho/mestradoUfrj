@@ -1,0 +1,9 @@
+<div class="row d-flex justify-content-center">
+  <div class="col d-flex justify-content-center">
+    <h3 style="margin-top: 20px; margin-bottom: 15px;">Índice</h3>
+  </div>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a class="links" style="font-size: 18px;" *ngFor="let aula of aulas" routerLink="/aula/{{aula.id}}">Aula {{aula.id}}
+    - {{aula.titulo}}</a>
+</div>
